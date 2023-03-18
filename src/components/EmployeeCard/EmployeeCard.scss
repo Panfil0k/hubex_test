@@ -1,0 +1,147 @@
+@import '../App/const';
+@import '../App/mixin';
+
+.employee {
+  min-width: 266px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: $app-background-color;
+  position: relative;
+  top: -75px;
+  border-radius: 9px 9px 0 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(75px, auto));
+  column-gap: 13px;
+  grid-template-areas:
+    'photo name'
+    'photo info'
+    'btn btn'
+    'contacts contacts'
+    'job job';
+
+  &__photo {
+    grid-area: photo;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 9px;
+  }
+
+  &__name {
+    grid-area: name;
+    margin: 0 0 -6px 0;
+    align-self: end;
+
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  &__info {
+    grid-area: info;
+    @include ulReset ();
+    margin-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+
+    &-item {
+      display: flex;
+      column-gap: 2px;
+
+      span {
+        font-size: 9px;
+        line-height: 1.3;
+        color: $app-text-extra-color;
+      }
+    }
+
+    &-icon {
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+      fill:$app-main-color;
+    }
+  }
+
+  &__btn-save {
+    grid-area: btn;
+    @include btnReset ();
+    width: 100%;
+    height: 38px;
+    margin: 9px 0;
+
+    background-color: $app-main-color;
+    border-radius: 9px;
+
+    color: $app-btn-text-color;
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+
+  &__contacts {
+    grid-area: contacts;
+    @include ulReset ();
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    a {
+      display: block;
+      font-size: 0;
+    }
+
+    &-icon {
+      width: 46px;
+      height: 46px;
+    }
+
+    &-social-icon {
+      width: 22px;
+      height: 22px;
+      margin: 12px;
+    }
+  }
+
+  &__job {
+    grid-area: job;
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+
+    margin: 9px 0;
+    padding: 16px 36px 16px 12px;
+
+    background-image: url('../../images/arrow-link.svg');
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+
+    &-logo {
+      grid-row-end: span 2;
+      width: 43px;
+      height: 43px;
+    }
+
+    &-name {
+      margin: 0;
+
+      font-size: 12px;
+      line-height: 1;
+    }
+
+    &-description {
+      margin: 0;
+
+      font-size: 10px;
+      line-height: 1.36;
+      color: $app-text-extra-color;
+    }
+  }
+}

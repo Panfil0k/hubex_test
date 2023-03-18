@@ -1,0 +1,23 @@
+@import './const';
+
+.page {
+  min-height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: $app-background-color;
+
+  font-family: 'Nimbus', 'Trebuchet MS', 'Helvetica', sans-serif;
+  font-weight: 400;
+  color: $app-text-main-color;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.main {
+  padding: 0 9px;
+}
