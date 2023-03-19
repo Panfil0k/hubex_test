@@ -1,17 +1,56 @@
+@import '../App/const';
+@import '../App/mixin';
+
 .header {
+  position: relative;
   width: 100%;
-  height: 147px;
   box-sizing: border-box;
 
   display: flex;
   justify-content: center;
 
-  background-color: #C4D600;
+  background-color: $app-main-color;
 
-  &__logo_mobile {
-    width: 131px;
-    height: 41px;
+  &__btn-back {
+    @include btnReset ();
+    position: absolute;
+    left: 9px;
+    top: 17px;
+    padding-left: 11px;
 
-    margin-top: 15px;
+    background-color: transparent;
+    background-image: url('../../images/arrow-mobile-navigation.svg');
+    background-repeat: no-repeat;
+    background-position: left 0 center;
+
+    font-size: 9px;
+    line-height: 1.1;
+    color: $app-btn-text-color;
+  }
+
+  &_place_main {
+    height: 147px;
+    @include simpleAnimation ();
+
+    .header__logo_mobile {
+      width: 131px;
+      height: 41px;
+      margin-top: 15px;
+      @include simpleAnimation ();
+    }
+  }
+
+  &_place_other {
+    height: 118px;
+    @include simpleAnimation ();
+
+    .header__logo_mobile {
+      width: 168px;
+      height: 53px;
+      margin-top: 44px;
+      @include simpleAnimation ();
+    }
   }
 }
+
+

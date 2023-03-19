@@ -9,8 +9,7 @@ import contactPhoto from '../../images/contact-photo.png';
 import companyLogo from '../../images/logo-link.svg';
 import { employeeMock } from '../../mocks/employee';
 
-function ContactCard() {
-
+function EmployeeCard({ showCompanyInfo }) {
   return (
     <section className='employee'>
       <img src={contactPhoto} className='employee__photo' alt='Фотография контакта' />
@@ -40,32 +39,32 @@ function ContactCard() {
 
       <button type='button' className='employee__btn-save'>Сохранить контакт</button>
 
-      <ul className='employee__contacts'>
-        <li className='employee__contacts-item'>
+      <ul className='contacts'>
+        <li className='contacts__item'>
           <a href={`tel:${employeeMock.mobileTel}`}>
             <Icons
               name='phone-big'
-              className='employee__contacts-icon'
+              className='contacts__icon'
               role='img'
               alt='Номер мобильного телефона'
             />
           </a>
         </li>
-        <li className='employee__contacts-item'>
+        <li className='contacts__item'>
           <a href={`mailto:${employeeMock.email}`}>
             <Icons
               name='email-big'
-              className='employee__contacts-icon'
+              className='contacts__icon'
               role='img'
               alt='Email'
             />
           </a>
         </li>
-        <li className='employee__contacts-item'>
+        <li className='contacts__item'>
           <a href={employeeMock.site} target='_blank' rel='noopener noreferrer'>
             <Icons
               name='site-big'
-              className='employee__contacts-icon'
+              className='contacts__icon'
               role='img'
               alt='Сайт'
             />
@@ -74,7 +73,7 @@ function ContactCard() {
         <ContactList contacts={employeeMock.social}/>
       </ul>
 
-      <div className='employee__job'>
+      <div className='employee__job' onClick={showCompanyInfo}>
         <img src={companyLogo} className='employee__job-logo' alt='S7' />
         <h2 className='employee__job-name'>S7 Airlines</h2>
         <p className='employee__job-description'>Крупнейшая частная авиакомпания России</p>
@@ -83,4 +82,4 @@ function ContactCard() {
   );
 }
 
-export default ContactCard;
+export default EmployeeCard;
