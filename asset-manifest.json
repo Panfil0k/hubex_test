@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hubex_test/static/css/main.214c2f3f.css",
+    "main.js": "/hubex_test/static/js/main.267f8039.js",
+    "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
+    "static/media/Nimbus-Bold.woff": "/hubex_test/static/media/Nimbus-Bold.cc8e5655205b401416c8.woff",
+    "static/media/Nimbus-Regular.woff2": "/hubex_test/static/media/Nimbus-Regular.e7855ef7b23a38144d32.woff2",
+    "static/media/Nimbus-Bold.woff2": "/hubex_test/static/media/Nimbus-Bold.209e00068595ad122d02.woff2",
+    "static/media/icons.svg": "/hubex_test/static/media/icons.736faa425de9cb54472fcd8327aa5e39.svg",
+    "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.71decefc488f7a9a71d5.png",
+    "static/media/logo-mobile.svg": "/hubex_test/static/media/logo-mobile.2e221d9d36dbf621c9ebf3cb79b49020.svg",
+    "static/media/logo-link.svg": "/hubex_test/static/media/logo-link.b463e2cf00825f1806e591a7f33f97a0.svg",
+    "index.html": "/hubex_test/index.html",
+    "static/media/arrow-mobile-navigation.svg": "/hubex_test/static/media/arrow-mobile-navigation.460c32b7644e374f3d2f.svg",
+    "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
+    "main.214c2f3f.css.map": "/hubex_test/static/css/main.214c2f3f.css.map",
+    "main.267f8039.js.map": "/hubex_test/static/js/main.267f8039.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.214c2f3f.css",
+    "static/js/main.267f8039.js"
+  ]
+}
