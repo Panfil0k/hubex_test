@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/hubex_test/static/css/main.6f8aaf9e.css",
-    "main.js": "/hubex_test/static/js/main.53e9bc24.js",
+    "main.css": "/hubex_test/static/css/main.3c27b7bb.css",
+    "main.js": "/hubex_test/static/js/main.75b442b5.js",
     "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.2339fa644d5db55ba24c.png",
+    "static/media/contact-photo-3.png": "/hubex_test/static/media/contact-photo-3.3a33d28d31446df11a17.png",
+    "static/media/contact-photo-2.png": "/hubex_test/static/media/contact-photo-2.ee82c2b4c3f008a98074.png",
     "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
     "static/media/Nimbus-Bold.woff": "/hubex_test/static/media/Nimbus-Bold.cc8e5655205b401416c8.woff",
     "static/media/icons.svg": "/hubex_test/static/media/icons.ab9dc2336eea23944d35df925177197a.svg",
@@ -16,11 +18,12 @@
     "static/media/arrow-navigation-left.svg": "/hubex_test/static/media/arrow-navigation-left.429e180b265ac1594d2b.svg",
     "static/media/arrow-mobile-navigation.svg": "/hubex_test/static/media/arrow-mobile-navigation.460c32b7644e374f3d2f.svg",
     "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
-    "main.6f8aaf9e.css.map": "/hubex_test/static/css/main.6f8aaf9e.css.map",
-    "main.53e9bc24.js.map": "/hubex_test/static/js/main.53e9bc24.js.map"
+    "static/media/arrow-slider.svg": "/hubex_test/static/media/arrow-slider.fb390c3395a863b6cc72.svg",
+    "main.3c27b7bb.css.map": "/hubex_test/static/css/main.3c27b7bb.css.map",
+    "main.75b442b5.js.map": "/hubex_test/static/js/main.75b442b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f8aaf9e.css",
-    "static/js/main.53e9bc24.js"
+    "static/css/main.3c27b7bb.css",
+    "static/js/main.75b442b5.js"
   ]
 }
