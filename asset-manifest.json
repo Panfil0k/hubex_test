@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/hubex_test/static/css/main.b3edb0fb.css",
-    "main.js": "/hubex_test/static/js/main.b6bbd5cc.js",
+    "main.css": "/hubex_test/static/css/main.243c8aaa.css",
+    "main.js": "/hubex_test/static/js/main.a3caa0c7.js",
     "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.2339fa644d5db55ba24c.png",
     "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
     "static/media/Nimbus-Bold.woff": "/hubex_test/static/media/Nimbus-Bold.cc8e5655205b401416c8.woff",
+    "static/media/icons.svg": "/hubex_test/static/media/icons.8d9b5eed0e5bbe994912212f40558920.svg",
     "static/media/Nimbus-Regular.woff2": "/hubex_test/static/media/Nimbus-Regular.e7855ef7b23a38144d32.woff2",
     "static/media/Nimbus-Bold.woff2": "/hubex_test/static/media/Nimbus-Bold.209e00068595ad122d02.woff2",
-    "static/media/icons.svg": "/hubex_test/static/media/icons.736faa425de9cb54472fcd8327aa5e39.svg",
+    "static/media/logo-desktop.svg": "/hubex_test/static/media/logo-desktop.336baf1fa0d47f94a4e689d6620c48d1.svg",
     "static/media/logo-mobile.svg": "/hubex_test/static/media/logo-mobile.2e221d9d36dbf621c9ebf3cb79b49020.svg",
     "static/media/logo-link.svg": "/hubex_test/static/media/logo-link.b463e2cf00825f1806e591a7f33f97a0.svg",
     "index.html": "/hubex_test/index.html",
+    "static/media/arrow-navigation-right.svg": "/hubex_test/static/media/arrow-navigation-right.d0255cfaa51dbc936442.svg",
+    "static/media/arrow-navigation-left.svg": "/hubex_test/static/media/arrow-navigation-left.429e180b265ac1594d2b.svg",
     "static/media/arrow-mobile-navigation.svg": "/hubex_test/static/media/arrow-mobile-navigation.460c32b7644e374f3d2f.svg",
     "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
-    "main.b3edb0fb.css.map": "/hubex_test/static/css/main.b3edb0fb.css.map",
-    "main.b6bbd5cc.js.map": "/hubex_test/static/js/main.b6bbd5cc.js.map"
+    "main.243c8aaa.css.map": "/hubex_test/static/css/main.243c8aaa.css.map",
+    "main.a3caa0c7.js.map": "/hubex_test/static/js/main.a3caa0c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3edb0fb.css",
-    "static/js/main.b6bbd5cc.js"
+    "static/css/main.243c8aaa.css",
+    "static/js/main.a3caa0c7.js"
   ]
 }
