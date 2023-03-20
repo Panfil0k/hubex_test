@@ -22,6 +22,7 @@
 
   @media (min-width: 576px) {
     top: 0;
+    max-height: 580px;
     border-radius: 0;
     grid-template-columns: repeat(auto-fit, minmax(130px, 385px));
     grid-template-rows: auto;
