@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/hubex_test/static/css/main.243c8aaa.css",
-    "main.js": "/hubex_test/static/js/main.a3caa0c7.js",
+    "main.css": "/hubex_test/static/css/main.33697882.css",
+    "main.js": "/hubex_test/static/js/main.53e9bc24.js",
     "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.2339fa644d5db55ba24c.png",
     "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
     "static/media/Nimbus-Bold.woff": "/hubex_test/static/media/Nimbus-Bold.cc8e5655205b401416c8.woff",
-    "static/media/icons.svg": "/hubex_test/static/media/icons.8d9b5eed0e5bbe994912212f40558920.svg",
+    "static/media/icons.svg": "/hubex_test/static/media/icons.ab9dc2336eea23944d35df925177197a.svg",
     "static/media/Nimbus-Regular.woff2": "/hubex_test/static/media/Nimbus-Regular.e7855ef7b23a38144d32.woff2",
     "static/media/Nimbus-Bold.woff2": "/hubex_test/static/media/Nimbus-Bold.209e00068595ad122d02.woff2",
     "static/media/logo-desktop.svg": "/hubex_test/static/media/logo-desktop.336baf1fa0d47f94a4e689d6620c48d1.svg",
@@ -16,11 +16,11 @@
     "static/media/arrow-navigation-left.svg": "/hubex_test/static/media/arrow-navigation-left.429e180b265ac1594d2b.svg",
     "static/media/arrow-mobile-navigation.svg": "/hubex_test/static/media/arrow-mobile-navigation.460c32b7644e374f3d2f.svg",
     "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
-    "main.243c8aaa.css.map": "/hubex_test/static/css/main.243c8aaa.css.map",
-    "main.a3caa0c7.js.map": "/hubex_test/static/js/main.a3caa0c7.js.map"
+    "main.33697882.css.map": "/hubex_test/static/css/main.33697882.css.map",
+    "main.53e9bc24.js.map": "/hubex_test/static/js/main.53e9bc24.js.map"
   },
   "entrypoints": [
-    "static/css/main.243c8aaa.css",
-    "static/js/main.a3caa0c7.js"
+    "static/css/main.33697882.css",
+    "static/js/main.53e9bc24.js"
   ]
 }
