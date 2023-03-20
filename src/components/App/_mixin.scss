@@ -13,3 +13,12 @@
 @mixin simpleAnimation {
   transition: all .3s ease;
 }
+
+@mixin hovered {
+  transition: all .3s ease;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+

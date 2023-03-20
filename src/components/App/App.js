@@ -25,9 +25,24 @@ function App() {
 
   return (
     <div className='page'>
-      <Header companyInfo={companyInfo} toggleCompanyInfo={toggleCompanyInfo} widthWindow={widthWindow} />
+      <Header
+        companyInfo={companyInfo}
+        toggleCompanyInfo={toggleCompanyInfo}
+        widthWindow={widthWindow}
+      />
       <main className='main'>
-        { !companyInfo ? <EmployeeCard showCompanyInfo={toggleCompanyInfo} widthWindow={widthWindow} /> : <CompanyCard widthWindow={widthWindow} /> }
+        {
+          !companyInfo
+          ?
+          <EmployeeCard
+            showCompanyInfo={toggleCompanyInfo}
+            widthWindow={widthWindow}
+          />
+          :
+          <CompanyCard
+            widthWindow={widthWindow}
+          />
+        }
       </main>
     </div>
   );

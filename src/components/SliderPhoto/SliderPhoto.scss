@@ -13,9 +13,11 @@
 
   .slick-arrow {
     @include btnReset ();
+    @include hovered ();
     position: absolute;
     bottom: 21px;
     z-index: 2;
+    cursor: pointer;
 
     width: 28px;
     height: 28px;
@@ -60,6 +62,7 @@
         font-size: 0;
         border-radius: 4px;
         background-color: $app-main-color;
+        cursor: pointer;
       }
     }
 

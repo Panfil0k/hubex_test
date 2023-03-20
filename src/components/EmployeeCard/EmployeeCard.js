@@ -21,15 +21,10 @@ function EmployeeCard({ showCompanyInfo, widthWindow }) {
         ?
         <img src={contactPhoto} className='employee__photo' alt='Фотография контакта' />
         :
-        <SliderPhoto />
-      }
-
-      {
-        widthWindow >= TABLET_WIDTH
-        ?
-        <img src={companyLogo} className='employee__company-logo' alt='Логотип S7 Airlines' />
-        :
-        null
+        <>
+          <SliderPhoto />
+          <img src={companyLogo} className='employee__company-logo' alt='Логотип S7 Airlines' />
+        </>
       }
 
       <h1 className='employee__name'>{employeeMock.name}</h1>

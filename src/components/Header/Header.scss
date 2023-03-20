@@ -28,7 +28,6 @@
     display: flex;
     align-items: center;
 
-    height: 12px;
     padding: 2px 0px 2px 11px;
 
     background-color: transparent;
@@ -79,13 +78,15 @@
   padding-top: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   &__btn {
     @include btnReset ();
-    height: 18px;
+    @include hovered ();
     padding-top: 12px;
 
     font-size: 14px;
+    line-height: 1;
     color: $app-text-extra-color;
 
     background-color: transparent;
