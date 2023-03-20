@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hubex_test/static/css/main.1e9f2233.css",
+    "main.css": "/hubex_test/static/css/main.80035c81.css",
     "main.js": "/hubex_test/static/js/main.53e9bc24.js",
     "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.2339fa644d5db55ba24c.png",
     "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
@@ -16,11 +16,11 @@
     "static/media/arrow-navigation-left.svg": "/hubex_test/static/media/arrow-navigation-left.429e180b265ac1594d2b.svg",
     "static/media/arrow-mobile-navigation.svg": "/hubex_test/static/media/arrow-mobile-navigation.460c32b7644e374f3d2f.svg",
     "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
-    "main.1e9f2233.css.map": "/hubex_test/static/css/main.1e9f2233.css.map",
+    "main.80035c81.css.map": "/hubex_test/static/css/main.80035c81.css.map",
     "main.53e9bc24.js.map": "/hubex_test/static/js/main.53e9bc24.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e9f2233.css",
+    "static/css/main.80035c81.css",
     "static/js/main.53e9bc24.js"
   ]
 }
