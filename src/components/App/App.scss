@@ -5,6 +5,8 @@
   min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
+  padding-bottom: 50px;
+  box-sizing: border-box;
   background-color: $app-background-color;
 
   font-family: 'Nimbus', 'Trebuchet MS', 'Helvetica', sans-serif;
@@ -21,6 +23,17 @@
 
 .main {
   padding: 0 9px;
+  max-width: 887px;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  @media (min-width: 414px) {
+    padding: 0 18px;
+  }
+
+  @media (min-width: 500px) {
+    padding: 0 34px;
+  }
 }
 
 .visible {

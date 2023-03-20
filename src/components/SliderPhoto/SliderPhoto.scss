@@ -1,0 +1,70 @@
+@import '../App/const';
+@import '../App/mixin';
+
+.slider {
+  grid-area: photo;
+  max-height: 385px;
+
+  .slick-slider {
+    max-height: 385px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .slick-arrow {
+    @include btnReset ();
+    position: absolute;
+    bottom: 21px;
+    z-index: 2;
+
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    font-size: 0;
+    background-color: $app-main-color;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 8px 12px;
+  }
+
+  .slick-prev {
+    left: 21px;
+    background-image: url('../../images/arrow-slider.svg');
+    transform: rotate(180deg);
+  }
+
+  .slick-next {
+    right: 21px;
+    background-image: url('../../images/arrow-slider.svg');
+  }
+
+  .slick-dots {
+    @include ulReset ();
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    & li {
+      display: inline-flex;
+      opacity: .5;
+
+      &:not(:last-of-type) {
+        margin-right: 14px;
+      }
+
+      & button {
+        @include btnReset ();
+        width: 7px;
+        height: 7px;
+        font-size: 0;
+        border-radius: 4px;
+        background-color: $app-main-color;
+      }
+    }
+
+    .slick-active {
+      opacity: 1;
+    }
+  }
+}

@@ -7,6 +7,7 @@
 @mixin btnReset {
   padding: 0;
   border: none;
+  outline: none;
 }
 
 @mixin simpleAnimation {

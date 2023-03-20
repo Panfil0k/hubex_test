@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './ContactList.scss';
-
 import ContactItem from './ContactItem/ContactItem';
 
 function ContactList({ contacts }) {

@@ -11,20 +11,33 @@
 
   background-color: $app-main-color;
 
+  @media (min-width: 576px) {
+    max-width: 887px;
+    margin: 0 auto;
+    padding: 0 34px;
+    box-sizing: border-box;
+    background-color: $app-background-color;
+  }
+
   &__btn-back {
     @include btnReset ();
     position: absolute;
     left: 9px;
     top: 17px;
-    padding-left: 11px;
+
+    display: flex;
+    align-items: center;
+
+    height: 12px;
+    padding: 2px 0px 2px 11px;
 
     background-color: transparent;
     background-image: url('../../images/arrow-mobile-navigation.svg');
     background-repeat: no-repeat;
-    background-position: left 0 center;
+    background-size: 6px 12px;
+    background-position: top 0 left 0;
 
     font-size: 9px;
-    line-height: 1.1;
     color: $app-btn-text-color;
   }
 
@@ -38,6 +51,10 @@
       margin-top: 15px;
       @include simpleAnimation ();
     }
+
+    @media (min-width: 576px) {
+      height: 100px;
+    }
   }
 
   &_place_other {
@@ -49,6 +66,46 @@
       height: 53px;
       margin-top: 44px;
       @include simpleAnimation ();
+    }
+
+    @media (min-width: 576px) {
+      height: 100px;
+    }
+  }
+}
+
+.nav {
+  width: 100%;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+
+  &__btn {
+    @include btnReset ();
+    height: 18px;
+    padding-top: 12px;
+
+    font-size: 14px;
+    color: $app-text-extra-color;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 29px 10px;
+    cursor: pointer;
+
+    &-employee {
+      background-image: url('../../images/arrow-navigation-left.svg');
+      background-position: top 0 left 0;
+    }
+
+    &-company {
+      background-image: url('../../images/arrow-navigation-right.svg');
+      background-position: top 0 right 0;
+    }
+
+    &:disabled {
+      opacity: .5;
+      cursor: default;
     }
   }
 }

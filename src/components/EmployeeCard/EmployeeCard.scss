@@ -3,7 +3,6 @@
 
 .employee {
   min-width: 266px;
-  margin: 0 auto;
   overflow: hidden;
   background-color: $app-background-color;
   position: relative;
@@ -21,21 +20,67 @@
     'contacts contacts'
     'job job';
 
+  @media (min-width: 576px) {
+    top: 0;
+    border-radius: 0;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 385px));
+    grid-template-rows: auto;
+    column-gap: 22px;
+    grid-template-areas:
+      'photo logo'
+      'photo name'
+      'photo info'
+      'photo contacts'
+      'btn contacts'
+      'btn contacts'
+      '. contacts';
+  }
+
+  @media (min-width: 768px) {
+    column-gap: 44px;
+  }
+
   &__photo {
     grid-area: photo;
     width: 100%;
     height: 100%;
+    max-height: 385px;
+    min-height: 150px;
     object-fit: cover;
     border-bottom-left-radius: 9px;
   }
 
+  &__company-logo {
+    grid-area: logo;
+    width: 160px;
+    margin: 5px 0 19px 0;
+  }
+
   &__name {
     grid-area: name;
-    margin: 0 0 -6px 0;
     align-self: end;
+
+    margin: 0 0 -6px 0;
 
     font-size: 12px;
     line-height: 1.3;
+
+    @media (min-width: 414px) {
+      padding-right: 20px;
+      font-size: 14px;
+    }
+
+    @media (min-width: 576px) {
+      align-self: start;
+      margin-bottom: 3px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   &__info {
@@ -55,6 +100,14 @@
         font-size: 9px;
         line-height: 1.3;
         color: $app-text-extra-color;
+
+        @media (min-width: 414px) {
+          font-size: 11px;
+        }
+      }
+
+      @media (min-width: 320px) {
+        padding-right: 20px;
       }
     }
 
@@ -63,6 +116,19 @@
       height: 13px;
       flex-shrink: 0;
       fill:$app-main-color;
+    }
+  }
+
+  &__profession {
+    grid-area: info;
+    margin: 0;
+
+    font-size: 12px;
+    line-height: 1.6;
+    color: $app-text-extra-color;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
     }
   }
 
@@ -86,6 +152,12 @@
 
     &:hover {
       opacity: .7;
+    }
+
+    @media (min-width: 576px) {
+      height: 50px;
+      margin: 11px 0;
+      font-size: 16px;
     }
   }
 
@@ -119,6 +191,7 @@
 
     &-description {
       margin: 0;
+      max-width: 165px;
 
       font-size: 10px;
       line-height: 1.36;
