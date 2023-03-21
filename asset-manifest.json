@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/hubex_test/static/css/main.aba80fdd.css",
-    "main.js": "/hubex_test/static/js/main.5e16349c.js",
+    "main.js": "/hubex_test/static/js/main.50f35658.js",
     "static/media/contact-photo.png": "/hubex_test/static/media/contact-photo.91e0aecc16ac77fe1f71.png",
     "static/media/contact-photo-3.png": "/hubex_test/static/media/contact-photo-3.6cd4ffcd647e2d92a9f6.png",
     "static/media/Nimbus-Regular.woff": "/hubex_test/static/media/Nimbus-Regular.8b466f9928b6c755171f.woff",
     "static/media/Nimbus-Bold.woff": "/hubex_test/static/media/Nimbus-Bold.cc8e5655205b401416c8.woff",
-    "static/media/icons.svg": "/hubex_test/static/media/icons.ab9dc2336eea23944d35df925177197a.svg",
+    "static/media/icons.svg": "/hubex_test/static/media/icons.5af3360833e042c8cea7d1ffa8670726.svg",
     "static/media/contact-photo-2.png": "/hubex_test/static/media/contact-photo-2.e21f0e0173442616dd14.png",
     "static/media/Nimbus-Regular.woff2": "/hubex_test/static/media/Nimbus-Regular.e7855ef7b23a38144d32.woff2",
     "static/media/Nimbus-Bold.woff2": "/hubex_test/static/media/Nimbus-Bold.209e00068595ad122d02.woff2",
@@ -20,10 +20,10 @@
     "static/media/arrow-link.svg": "/hubex_test/static/media/arrow-link.77ccd186ffc195d93051.svg",
     "static/media/arrow-slider.svg": "/hubex_test/static/media/arrow-slider.fb390c3395a863b6cc72.svg",
     "main.aba80fdd.css.map": "/hubex_test/static/css/main.aba80fdd.css.map",
-    "main.5e16349c.js.map": "/hubex_test/static/js/main.5e16349c.js.map"
+    "main.50f35658.js.map": "/hubex_test/static/js/main.50f35658.js.map"
   },
   "entrypoints": [
     "static/css/main.aba80fdd.css",
-    "static/js/main.5e16349c.js"
+    "static/js/main.50f35658.js"
   ]
 }
