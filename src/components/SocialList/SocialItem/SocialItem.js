@@ -6,7 +6,7 @@ import changeCapitalLetter from '../../../utils/changeCapitalLetter';
 function ContactItem({ name, contact }) {
   return (
     <li className='contacts__item'>
-      <a href={contact}>
+      <a href={contact} target='_blank' rel='noopener noreferrer'>
         <Icons
           name={name}
           className='contacts__social-icon'

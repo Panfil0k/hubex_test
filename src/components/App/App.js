@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     window.addEventListener('resize', updateWidthWindow);
     return () => window.removeEventListener('resize', updateWidthWindow);
-  });
+  }, []);
 
   return (
     <div className='page'>
